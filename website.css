@@ -1,0 +1,143 @@
+#navigationbar{
+background-color: #9e58db;
+color: black;
+
+}
+body {
+   margin: 0;
+   padding: 0;
+}
+h2 {
+	color: white;
+	
+}
+
+ul {
+	top:0;
+	width:100%;
+	height: 50px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #e0ae48;
+}
+
+li {
+	float: left;
+}
+li a {
+	text-decoration: none;
+	text-size: 24px;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 20px 30px;
+}
+
+li a:hover{
+	background-color: #ab8538;
+
+}
+.active{
+	background-color: #2b2b2b
+}
+
+#home {
+	width: 47px;
+	height: 47px;
+	background: url('templogo.png') -47px 0;
+}
+
+div.display {
+
+	
+	display: inline-block;
+	height: 300px;
+	width: 400px;
+*display: inline;
+
+}
+
+div.display:hover {
+
+	background-color: #0000;
+
+}
+
+div.desc {
+	padding: 15px;
+	text-align:left;
+}
+
+div.grid
+{
+	max-width: 1080px;
+	position: relative;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+h2 {padding-left: 50px;}
+h3 {color: white}
+p{color: white;}
+
+	a {text-decoration-line: none;}
+
+amazon{
+	border-radius: 25px;
+	background-color: #FFFFFF;
+	padding: 10px;
+	
+}
+
+.insidetop {
+  position: absolute;
+  top: 8px;
+  left: 18px;
+}
+.insidebottom
+ {
+  position: absolute;
+  bottom: 8px;
+  left: 18px;
+}
+crossout {
+	color: gray;
+	text-decoration-line: line-through;
+}
+
+div.productdisplay{
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 400px;
+  height: 600px;
+  margin:100px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  color: white;
+}
+th:first-child, td:first-child {
+	padding: 50px;
+  text-align: left;
+}
+th, td {
+	padding: 50px;
+  text-align: center;
+}
+productinfo{
+	display: flex;
+	
+}
+.child {
+	width:40%;
+	display:inline-block;
+		*display:inline;
+	height: 600 px;
+}
