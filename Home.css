@@ -5,5 +5,10 @@
 	height: auto;
 	
 }
-
+.bodycore{
+	background-image:url("Backdrop.png");
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-size: 100%;
+}
 
